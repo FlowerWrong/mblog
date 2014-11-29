@@ -106,6 +106,11 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
 #### molokai
 [molokai](https://github.com/tomasr/molokai)
+```ruby
+syntax enable
+set background=dark
+colortheme molokai
+```
 
 #### html5
 [html5](https://github.com/othree/html5.vim)
@@ -127,3 +132,11 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
 #### vim-colors-solarized
 [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
+
+```ruby
+syntax enable
+set background=dark
+colortheme solarized
+```
+
+
