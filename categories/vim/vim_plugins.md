@@ -26,6 +26,11 @@ let NERDTreeWinPos = 'left'
 nmap <F6> :NERDTreeToggle<cr>
 ```
 
+##### shortcut
+F6 to toggle
+ctrl + w + h/l to switch window
+m + m to rename file/dir name
+
 #### Vim-colorschemes
 [vim-colorschemes](https://github.com/flazz/vim-colorschemes)
 
@@ -84,6 +89,9 @@ if executable('coffeetags')
 endif
 ```
 
+##### shortcut
+F5 to toggle
+
 #### ctrlp
 [ctrlp](https://github.com/kien/ctrlp.vim)
 ```ruby
@@ -91,6 +99,9 @@ endif
 set wildignore+=*/tmp/*,*.so,*.o,*.a,*.obj,*.swp,*.zip,*.pyc,*.pyo,*.class,.DS_Store  " MacOSX/Linux
 let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 ```
+
+##### shortcut
+ctrl + p
 
 #### Vim-rails
 [vim-rails](https://github.com/tpope/vim-rails)
@@ -103,6 +114,9 @@ let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
 
 #### vim-markdown
 [vim-markdown](https://github.com/tpope/vim-markdown)
+```ruby
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+```
 
 #### molokai
 [molokai](https://github.com/tomasr/molokai)
@@ -138,5 +152,3 @@ syntax enable
 set background=dark
 colortheme solarized
 ```
-
-
