@@ -1,17 +1,7 @@
-## Vim cmd
+## Vim multi screen
 
-1. copy/paste
-```ruby
-ctrl + v/v to select a block
-y to copy
-p to paste
-```
-2. redo and undo
-```ruby
-u to undo
-ctrl + r to redo
-```
-3. table
+Vim 的分屏方案除了可以水平分屏和垂直分屏的`tmux`插件外，也可以使用 vim 7 自带的table功能。
+
 ```ruby
 :tabnew [+opt] [+cmd] #建立对指定文件新的tab
 :tabc       # 关闭当前的tab
