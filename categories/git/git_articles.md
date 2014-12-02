@@ -12,3 +12,8 @@
 11. [git分支策略模型](http://openwares.net/linux/git_brantch_model.html)
 12. [Git+Gerrit+Gradle+Jenkins持续集成](http://openwares.net/linux/git_gerrit_gradle_jenkins_integration.html)
 13. [A successful Git branching model 翻译](http://www.uml.org.cn/pzgl/201112163.asp)
+14. [contribute to open source](https://guides.github.com/activities/contributing-to-open-source/)
+15. [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+16. [Merging a pull request](https://help.github.com/articles/merging-a-pull-request/)
+17. [大白话讲解如何给github上项目贡献代码](http://site.douban.com/196781/widget/notes/12161495/note/269163206/)
+18. [git+github创建分支&提交并贡献代码](http://my.oschina.net/shipley/blog/98477)
