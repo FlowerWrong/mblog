@@ -32,4 +32,34 @@
 2. `ls -l`
 3. `chmod` 改变权限 +	为文件或目录增加权限; -	删除文件或目录的权限; =	设置指定的权限
 4. 使用符号表示权限: `chmod o+wx testfile #other` `chmod u-x testfile #user` `chmod g=rx testfile #group` `chmod o+wx,u-x,g=rx testfile`
-5. 使用数字表示权限:
+5. 使用数字表示权限: ![chmod-d](https://raw.githubusercontent.com/FlowerWrong/mblog/master/screen/category-linux-basic-chmod.png)
+6. 更改所有者和用户组: `chown #用来改变文件的所有者` `chgrp #用来改变文件所在的群组`
+7. Linux 通过给程序设置SUID(Set User ID)和SGID(Set Group ID)位来赋予普通用户特殊权限
+
+### linux 环境变量
+
+1. `$TEST="Linux Programming" $echo $TEST` 退出 Shell 时，变量将消失
+2. `vim /etc/profile` `vim ~/.profile`
+3. `echo $PATH`
+4. PS1和PS2变量: PS1变量用来保存命令提示符
+5. 常用环境变量: DISPLAY, HOME, IFS, LANG, PATH, PWD, RANDOM, TERM, TZ, UID
+
+### linux 打印文件和发送邮件
+
+1. `pr` 命令用来将文本文件转换成适合打印的格式
+2. `mail -s "Test Message" admin@yahoo.com` `mail -s "Report 05/06/07" admin@yahoo.com < demo.txt`
+
+### linux 管道和过滤器
+
+1. 有时候，我们可以把两个命令连起来使用，一个命令的输出作为另一个命令的输入，这就叫做管道。为了建立管道，需要在两个命令之间使用竖线(|)连接
+2. 管道是Linux进程之间一种重要的通信机制；除了管道，还有共享内存、消息队列、信号、套接字(socket) 等进程通信机制
+3. 管道使用竖线(|)将两个命令隔开，竖线左边命令的输出就会作为竖线右边命令的输入。连续使用竖线表示第一个命令的输出会作为第二个命令的输入，第二个命令的输出又会作为第三个命令的输入，依此类推
+4. `grep pattern file(s)` ![chmod-d](https://raw.githubusercontent.com/FlowerWrong/mblog/master/screen/category-linux-basic-grep.png)
+5. `ls -l | grep "Aug"` `ls -l | grep -i "carol.*aug"`
+6. `sort food` 对 foot 文件的各行进行排序
+7. `ls -l | grep "Aug" | sort +4n`
+8. `ls -l | grep "Aug" | sort +4n | more` more cmd
+
+### linux 进程管理
+
+1. 
