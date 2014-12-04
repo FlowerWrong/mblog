@@ -123,3 +123,45 @@
 2. 目录项: 包括文件名和inode节点号
 3. Inode: 又称文件索引节点，包含文件的基础信息以及数据块的指针
 4. 数据块: 包含文件的具体内容
+5. 扇区/块/inode
+6. `stat demo.txt` 查看inode信息
+7. Linux系统内部不使用文件名，而使用inode号码来识别文件
+8. 系统内部这个过程分成三步：首先，系统找到这个文件名对应的inode号码；其次，通过inode号码，获取inode信息；最后，根据inode信息，找到文件数据所在的block，读出数据
+9. `ls -i /etc` -i 列出inode号
+10. 硬链接 `ln source_file target_file`
+11. 软链接 `ln -s source_file target_file`
+
+### linux 用户管理
+
+1. 在Linux中，有三种用户: root用户, 系统用户, 普通用户
+2. `cat /etc/passwd`
+3. `useradd` `usermod` `userdel` `groupadd` `groupmod` `groupdel`
+4. `groupadd [-g gid [-o]] [-r] [-f] groupname`
+5. `groupmod -n new_modified_group_name old_group_name`
+6. `useradd -d homedir -g groupname -m -s shell -u userid accountname`
+
+### linux 系统性能分析
+
+1. Linux中需要监控的资源主要有 CPU、主存（内存）、硬盘空间、I/O时间、网络时间、应用程序等
+2. `netstat`
+3. `time`
+4. `ps`
+5. `vmstat`
+6. `gprof`
+7. `top`
+8. vmstat、sar、mpstat检测是否存在CPU瓶颈；
+9. vmstat、free检测是否存在内存瓶颈；
+10. iostat检测是否存在磁盘I/O瓶颈；
+11. netstat检测是否存在网络I/O瓶颈。
+
+### linux 系统日志及日志分析
+
+1. 大部分Linux发行版默认的日志守护进程为 syslog，位于 /etc/syslog 或 /etc/syslogd，默认配置文件为 /etc/syslog.conf，任何希望生成日志的程序都可以向 syslog 发送信息
+2. 默认配置下，日志文件通常都保存在`/var/log`目录下
+3. 大多数Linux发行版使用 logrotate 或 newsyslog 对日志进行管理。logrotate 程序不但可以压缩日志文件，减少存储空间，还可以将日志发送到指定 E-mail，方便管理员及时查看日志
+
+### linux 信号机制与信号处理
+
+1. 信号(signal)是Linux进程间通信的一种机制，全称为软中断信号，也被称为软中断。信号本质上是在软件层次上对硬件中断机制的一种模拟
+2. `kill -signal pid`
+3. `trap commands signals`
