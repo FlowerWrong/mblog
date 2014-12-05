@@ -5,26 +5,26 @@
 #### 二. [atom](https://atom.io/) or [sublime text 3](http://www.sublimetext.com/3) editor
 
 ```ruby
-# sublime text3
+# sublime text 3
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt-get update
 sudo apt-get install sublime-text-installer
 # remove sublime text3
 sudo apt-get remove sublime-text-installer
 
-# atom  /opt/atom/atom
+# atom
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
 sudo apt-get install atom
 ```
 
-#### 三. git
+#### 三. [git](http://git-scm.com/)
 
 ```ruby
 sudo apt-get install git
 ```
 
-#### 四. ubuntu-tweak
+#### 四. [ubuntu-tweak](http://ubuntu-tweak.com/)
 
 ```ruby
 sudo add-apt-repository ppa:tualatrix/ppa
@@ -74,7 +74,7 @@ sudo apt-get install oracle-java7-set-default
 
 #### 九. [rubymine](http://www.jetbrains.com/ruby/) for ruby
 
-#### 十. ruby, rails, nodejs, imagemagick and mysql
+#### 十. [ruby](https://www.ruby-lang.org/en/), [rails](http://rubyonrails.org/), [nodejs](http://www.nodejs.org/), [imagemagick](http://www.imagemagick.org/) and mysql
 
 ###### 1. install rvm
 
