@@ -1,5 +1,7 @@
 ## mysql
 
+#### [mysql 常用命令](http://see.xidian.edu.cn/cpp/u/mysql_ml/)
+
 #### [install mysql](http://see.xidian.edu.cn/cpp/html/1461.html)
 
 #### Mysql各种存储引擎的特性以及如何选择存储引擎

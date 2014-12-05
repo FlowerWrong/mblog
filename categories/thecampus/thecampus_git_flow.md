@@ -7,6 +7,7 @@
 5. 临时性分支包括特性分支`feature`(合作开发),用于新功能开发,分支自`dev`,新功能开发完毕必须`merge`回`dev`分支,或者不再需要此特性,直接丢弃分支,命名方式一般为`feature-特性名或者特性编号`
 6. 参照 [git分支策略模型](http://openwares.net/linux/git_brantch_model.html)
 7. 具体操作 [一个成功的Git分支模型](http://www.uml.org.cn/pzgl/201112163.asp)
+8. [git demo](https://github.com/FlowerWrong/gt)
 
 ### 工程师工作流
 
@@ -42,7 +43,9 @@ git push origin dev
 #### 合作(前前，后后，前后)
 1. 创建一个新的合作分支`new_feature`(一次性)
 ```ruby
-git checkout -b new_feature origin/new_feature # 对应到远程仓库
+git checkout -b new_feature # 建立仓库
+git push origin new_feature # 推送到远程仓库
+git checkout -b new_feature origin/new_feature # 拉取远程仓库并对应到自己本地仓库
 ```
 2. 本地创建自己的`name_feature`分支
 ```ruby
@@ -66,6 +69,6 @@ git push origin new_feature
 ```ruby
 git checkout master
 git merge --no-ff release-1.2
-git tag -a 1.2
+git tag -a v1.2 -m "release log"
 git branch -d release-1.2
 ```
