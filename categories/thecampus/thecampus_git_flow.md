@@ -23,52 +23,50 @@
 #### 前端工程师 or 后台工程师
 
 1. 本地创建自己的`name_feature`分支
-```ruby
-git checkout -b name_feature dev
-```
+
+        git checkout -b name_feature dev
+
 2. 提交更新
-```ruby
-git commit # not git commit -a -m
-```
+
+        git commit # not git commit -a -m
+
 3. 合并分支并推送到`dev`分支
-```ruby
-git checkout dev
-git pull # or git pull --rebase
-git merge --no-ff name_feature # or git rebase
-git branch -d name_feature # 删除分支
-git commit
-git push origin dev
-```
+
+        git checkout dev
+        git pull # or git pull --rebase
+        git merge --no-ff name_feature # or git rebase
+        git branch -d name_feature # 删除分支
+        git commit
+        git push origin dev
 
 #### 合作(前前，后后，前后)
 1. 创建一个新的合作分支`new_feature`(一次性)
-```ruby
-git checkout -b new_feature # 建立仓库
-git push origin new_feature # 推送到远程仓库
-git checkout -b new_feature origin/new_feature # 拉取远程仓库并对应到自己本地仓库
-```
+
+        git checkout -b new_feature # 建立仓库
+        git push origin new_feature # 推送到远程仓库
+        git checkout -b new_feature origin/new_feature # 拉取远程仓库并对应到自己本地仓库
+
 2. 本地创建自己的`name_feature`分支
-```ruby
-git checkout -b name_feature dev
-```
+
+        git checkout -b name_feature dev
+
 3. 提交更新
-```ruby
-git commit # not git commit -a -m
-```
+
+        git commit # not git commit -a -m
+
 4. 合并分支并推送到`new_feature`分支
-```ruby
-git checkout new_feature
-git pull # or git pull --rebase
-# git branch --set-upstream dev origin/dev
-git merge --no-ff name_feature # or git rebase
-git branch -d name_feature # 删除分支
-git commit
-git push origin new_feature
-```
+
+        git checkout new_feature
+        git pull # or git pull --rebase
+        # git branch --set-upstream dev origin/dev
+        git merge --no-ff name_feature # or git rebase
+        git branch -d name_feature # 删除分支
+        git commit
+        git push origin new_feature
+
 5. pull request or mail 请求管理员合并到dev
-```ruby
-git checkout master
-git merge --no-ff release-1.2
-git tag -a v1.2 -m "release log"
-git branch -d release-1.2
-```
+
+        git checkout master
+        git merge --no-ff release-1.2
+        git tag -a v1.2 -m "release log"
+        git branch -d release-1.2
