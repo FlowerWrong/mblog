@@ -1,0 +1,10 @@
+the first line of demo
+the second line of demo
+
+the line has ruby word
+the line has ruby word too
+
+the line has $ word
+
+the last line of demo
+bye
