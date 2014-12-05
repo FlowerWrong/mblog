@@ -17,3 +17,5 @@
 16. [Merging a pull request](https://help.github.com/articles/merging-a-pull-request/)
 17. [大白话讲解如何给github上项目贡献代码](http://site.douban.com/196781/widget/notes/12161495/note/269163206/)
 18. [git+github创建分支&提交并贡献代码](http://my.oschina.net/shipley/blog/98477)
+19. [git log tree](http://stackoverflow.com/questions/1064361/unable-to-show-a-git-tree-in-terminal)
+20. 
