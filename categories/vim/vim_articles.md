@@ -5,4 +5,5 @@
 3. [Derek Wyatt's energetic tutorial videos](http://derekwyatt.org/vim/tutorials/)
 4. [rails development with vim](http://www.sitepoint.com/effective-rails-development-vim/)
 5. [get start with vim](http://www.sitepoint.com/getting-started-vim/)
-6. []()
+6. [vim janus](https://github.com/carlhuda/janus)
+7. []()
