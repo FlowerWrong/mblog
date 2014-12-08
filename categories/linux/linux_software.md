@@ -89,6 +89,11 @@ rvm -v
 
 ```ruby
 rvm install 2.1.5
+
+# On ubuntu, you need `bash --login` to use rvm. To resolve:
+echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
+source ~/.bashrc
+
 rvm use --default 2.1.5 # set to default
 ruby -v
 gem -v
