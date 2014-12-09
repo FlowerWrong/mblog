@@ -1,0 +1,90 @@
+task hello {
+    doLast {
+        println 'Hello world!'
+    }
+}
+task hello << {
+    println 'Hello closure!'
+}
+# gradle -q hello
+
+
+task upper << {
+    String someString = 'mY_nAmE'
+    println "Original: " + someString
+    println "Upper case: " + someString.toUpperCase()
+}
+# gradle -q upper
+
+
+task count << {
+    4.times { print "$it " }
+}
+# gradle -q count
+
+
+task hello << {
+    println 'Hello world!'
+}
+task intro(dependsOn: hello) << {
+    println "I'm Gradle"
+}
+# gradle -q intro
+
+
+4.times { counter ->
+    task "task$counter" << {
+        println "I'm task number $counter"
+    }
+}
+4.times { counter ->
+    task "task$counter" << {
+        println "I'm task number $counter"
+    }
+}
+task0.dependsOn task2, task3
+# gradle -q task1
+
+
+task hello << {
+    println 'Hello Earth'
+}
+hello.doFirst {
+    println 'Hello Venus'
+}
+hello.doLast {
+    println 'Hello Mars'
+}
+hello << {
+    println 'Hello Jupiter'
+}
+# gradle -q hello
+# 其中 << 操作符 是 doLast 的简写方式
+
+
+task hello << {
+    println 'Hello world!'
+}
+hello.doLast {
+    println "Greetings from the $hello.name task."
+}
+
+
+task myTask {
+    ext.myProperty = "myValue"
+}
+task printTaskProperties << {
+    println myTask.myProperty
+}
+
+
+defaultTasks 'clean', 'run'
+task clean << {
+    println 'Default Cleaning!'
+}
+task run << {
+    println 'Default Running!'
+}
+task other << {
+    println "I'm not a default task!"
+}
