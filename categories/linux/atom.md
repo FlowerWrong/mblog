@@ -1,5 +1,8 @@
 ## [atom](https://atom.io/) 编辑器的安装/插件的安装使用
 
+![chmod-d](https://raw.githubusercontent.com/FlowerWrong/mblog/master/screen/category-linux-atom-setiui.png)
+![chmod-d](https://raw.githubusercontent.com/FlowerWrong/mblog/master/screen/category-linux-atom.png)
+
 #### 安装 [atom](https://atom.io/) 编辑器 via ppa
 
 ```bash
