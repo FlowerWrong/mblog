@@ -34,6 +34,13 @@ sudo apt-get install atom
 3. [其他插件列表](https://atom.io/packages)
 4. [主题列表](https://atom.io/themes)
 5. 无论插件还是主题，安装都同上
+6. 卸载插件
+
+        cd ~/software/atom-plugins/linter-jshint/
+        apm unlink
+        apm uninstall linter-jshint
+        cd ../
+        rm -rf linter-jshint/
 
 #### 插件推荐(不要安装过多的插件)
 
