@@ -32,4 +32,5 @@ $：移动光标到行尾
 )：移动光标到下一个句子
 (：移动光标到上一个句子
 ```
-
+5. vim NERDTree 隐藏文件
+`I` to toggle . start file and dir.
