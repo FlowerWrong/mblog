@@ -34,3 +34,6 @@ $：移动光标到行尾
 ```
 5. vim NERDTree 隐藏文件
 `I` to toggle . start file and dir.
+6. cmd in vim
+Use `:!cmd` to exe bash cmd.
+
