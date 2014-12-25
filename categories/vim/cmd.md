@@ -36,4 +36,10 @@ $：移动光标到行尾
 `I` to toggle . start file and dir.
 6. cmd in vim
 Use `:!cmd` to exe bash cmd.
+7. vim jump file with number
+```bash
+ngg or nG # 25gg or 25G
+:n
+vim +n filename
+```
 
