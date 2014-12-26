@@ -18,3 +18,10 @@
 1. 服务器字符集和校对，在mysql服务启动的时候确定。可以在my.cnf中设置： `default-character-set=utf8`
 2. 在启动选项中指定： `mysqld --default-character-set=utf8`
 3. 在编译的时候指定： ``./configure --with-charset=utf8`
+
+#### mysql cmd ####
+
+1. mysql dump
+`mysqldump -u root -p one_campus_development articles > ~/dev/articles.sql`
+2. mysql import
+`mysqlimport -u root -p --local one_campus_development articles ~/dev/articles.sql`
