@@ -25,3 +25,5 @@
 `mysqldump -u root -p one_campus_development articles > ~/dev/articles.sql`
 2. mysql import
 `mysqlimport -u root -p --local one_campus_development articles ~/dev/articles.sql`
+3. download data from server
+`scp name@ip:/backup/sql/articles2.sql ~/dev/articles.sql`
