@@ -52,3 +52,11 @@ sudo apt-get install atom
 3. [autocomplete-plus](https://atom.io/packages/autocomplete-plus)
 4. [autocomplete-paths](https://github.com/saschagehlich/autocomplete-paths)
 5. [ctrl+shift+p](https://github.com/atom/command-palette)
+
+#### beautify html and erb
+```ruby
+gem install htmlbeautifier
+
+ctrl+shift+p
+B
+```
