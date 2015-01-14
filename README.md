@@ -2,7 +2,7 @@
 
 ## Category
 1. [ruby](https://github.com/FlowerWrong/mblog/tree/master/categories/ruby)
-2. rails
+2. [rails](https://github.com/FlowerWrong/mblog/tree/master/categories/rails)
 3. javascript
 4. [git](https://github.com/FlowerWrong/mblog/tree/master/categories/git)
 5. java
