@@ -1,6 +1,8 @@
 # Frontend tools
 
 http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
+https://blog.cesarandreu.com/posts/from_rails_to_angularjs
+http://jeff.konowit.ch/posts/yeoman-rails-angular/
 
 1. nodejs
 2. [bower](http://bower.io/)
@@ -34,3 +36,14 @@ http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
 26. coffeescript(compile to js)
 27. scss(vs less)
 28. Gulp
+
+### nvm ###
+
+```ruby
+curl https://raw.githubusercontent.com/creationix/nvm/v0.23.2/install.sh | bash
+nvm ls-remote
+nvm install 0.11
+nvm use 0.11
+nvm which 0.11
+nvm ls
+```
