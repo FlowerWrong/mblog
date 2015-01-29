@@ -33,4 +33,4 @@ http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
 25. underscorejs(library)
 26. coffeescript(compile to js)
 27. scss(vs less)
-
+28. Gulp
