@@ -35,7 +35,8 @@ http://jeff.konowit.ch/posts/yeoman-rails-angular/
 25. underscorejs(library)
 26. coffeescript(compile to js)
 27. scss(vs less)
-28. Gulp
+28. Gulp(基于javascript的前端自动构建工具, 类似grunt)
+29. [nvm](https://github.com/creationix/nvm/)
 
 ### nvm ###
 
@@ -46,4 +47,11 @@ nvm install 0.11
 nvm use 0.11
 nvm which 0.11
 nvm ls
+```
+
+### npm ###
+
+```ruby
+npm update npm -g
+npm install moduleName --save-dev  # 自动把模块和版本号添加到devdependencies部分
 ```
