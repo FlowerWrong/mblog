@@ -37,10 +37,12 @@ http://jeff.konowit.ch/posts/yeoman-rails-angular/
 27. scss(vs less)
 28. Gulp(基于javascript的前端自动构建工具, 类似grunt)
 29. [nvm](https://github.com/creationix/nvm/)
+30. [angular ui](http://angular-ui.github.io/)
 
 ### nvm ###
 
 ```ruby
+sudo apt-get remove --purge nodejs
 curl https://raw.githubusercontent.com/creationix/nvm/v0.23.2/install.sh | bash
 nvm ls-remote
 nvm install 0.11
