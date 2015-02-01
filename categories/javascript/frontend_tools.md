@@ -38,6 +38,7 @@ http://jeff.konowit.ch/posts/yeoman-rails-angular/
 28. Gulp(基于javascript的前端自动构建工具, 类似grunt)
 29. [nvm](https://github.com/creationix/nvm/)
 30. [angular ui](http://angular-ui.github.io/)
+31. [jscs](http://jscs.info/)
 
 ### nvm ###
 
@@ -57,3 +58,8 @@ nvm ls
 npm update npm -g
 npm install moduleName --save-dev  # 自动把模块和版本号添加到devdependencies部分
 ```
+
+### articles ###
+
+1. http://www.tuicool.com/articles/BrQb2q
+2. 
