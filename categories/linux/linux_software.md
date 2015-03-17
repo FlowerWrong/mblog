@@ -57,6 +57,7 @@ sudo apt-get install google-chrome-unstable
 
 #### 六. java 7 or 8
 ```ruby
+# install java 7
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java7-installer
@@ -64,9 +65,7 @@ sudo apt-get install oracle-java7-installer
 sudo apt-get install oracle-java7-set-default
 
 
-# java 8
-sudo apt-get install ppa-purge
-sudo ppa-purge ppa:upubuntu-com/java
+# install java 8
 sudo apt-get remove oracle-java7-installer
 sudo apt-get update
 
@@ -78,7 +77,7 @@ sudo apt-get install oracle-java8-set-default
 # 切换为 Java 7 ：
 sudo update-java-alternatives -s java-7-oracle
 
-# 再切换为 Java 8：
+# 切换为 Java 8：
 sudo update-java-alternatives -s java-8-oracle
 ```
 
