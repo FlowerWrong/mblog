@@ -28,6 +28,12 @@ service tomcat6 start
 # 安装tomcat6默认目录在/usr/share/tomcat6/下
 # 配置文件默认目录在/etc/tomcat6/下
 
+# 配置tomcat为admin和manager用户
+# 修改文件/usr/share/tomcat6/conf/tomcat-users.xml
+vi /usr/share/tomcat6/conf/tomcat-users.xml
+# tomcat winalitetomcat
+# visit /manager/html
+
 # 8080 端口问题
 ps -ef | grep tomcat
 netstat -an | grep 8080
@@ -44,6 +50,8 @@ mkdir -p /opt/svn/repos
 svnadmin create /opt/svn/repos
 cd /opt/svn/repos/conf
 vi passwd
+# yang 1234567890yang
+# chen 1234567890chen
 vi authz
 vi snvserv.conf
 
