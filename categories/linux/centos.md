@@ -62,4 +62,12 @@ svnserve -d -r /opt/svn/repos
 # 开放 3690
 
 # winscp 上传文件
+
+# mysql
+# mysql -u root -p
+# CREATE DATABASE `test1` DEFAULT CHARACTER SET gbk COLLATE gbk_chinese_ci;
+CREATE DATABASE `test2` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+use xxx;
+SOURCE ~/test.sql;
+
 ```
