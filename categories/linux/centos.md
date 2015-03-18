@@ -43,6 +43,9 @@ vi /etc/sysconfig/iptables
 service iptables start
 service iptables status
 
+# 改为 80 端口
+vi /etc/tomcat6/tomcat6.conf
+
 # install svnserver
 yum install subversion
 svnserve --version
@@ -57,4 +60,6 @@ vi snvserv.conf
 
 svnserve -d -r /opt/svn/repos
 # 开放 3690
+
+# winscp 上传文件
 ```
