@@ -44,6 +44,7 @@ service iptables start
 service iptables status
 
 # 改为 80 端口
+vi /usr/share/tomcat6/conf/serve.xml
 vi /etc/tomcat6/tomcat6.conf
 
 # install svnserver
@@ -66,7 +67,7 @@ svnserve -d -r /opt/svn/repos
 # mysql
 # mysql -u root -p
 # CREATE DATABASE `test1` DEFAULT CHARACTER SET gbk COLLATE gbk_chinese_ci;
-CREATE DATABASE `test2` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+CREATE DATABASE `hmh` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 use xxx;
 SOURCE ~/test.sql;
 
@@ -79,5 +80,12 @@ ps aux | grep mysql
 service mysqld stop
 mv /var/lib/mysql/mysql.sock /var/lib/mysql/mysql.sock.bak
 service mysqld start
+
+# 中文乱码
+set names utf8;
+set character_set_results = utf8;
+set character_set_client = utf8;
+set character_set_connection = utf8;
+# 重新导入
 
 ```
