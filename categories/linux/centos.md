@@ -70,4 +70,14 @@ CREATE DATABASE `test2` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 use xxx;
 SOURCE ~/test.sql;
 
+# linux and windows mysql 数据库大小写问题
+vi /etc/my.cnf
+# lower_case_table_names=1 lower_case_table_names参数： 0为敏感，1为不敏感
+
+# Socket file /tmp/mysql.sock exists. Is another MySQL daemon already running with the same unix socket?
+ps aux | grep mysql
+service mysqld stop
+mv /var/lib/mysql/mysql.sock /var/lib/mysql/mysql.sock.bak
+service mysqld start
+
 ```
