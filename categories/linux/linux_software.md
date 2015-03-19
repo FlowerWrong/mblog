@@ -138,6 +138,16 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 node -v
+
+# via nvm
+curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash
+source ~/.nvm/nvm.sh
+nvm -v
+nvm install 0.12
+nvm use 0.12
+nvm alias default 0.12
+node -v
+npm -v
 ```
 
 ###### 6. install mysql
