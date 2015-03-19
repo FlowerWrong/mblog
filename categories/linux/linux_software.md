@@ -178,3 +178,9 @@ cd /etc
 sudo sysv-rc-conf
 # 打X的即表示运行在对应Runlevel时开机启动的服务，按空格进行将启动项反选，按q退出之后配置即完成
 ```
+
+#### 安装 redis
+
+```ruby
+sudo apt-get install redis-server
+```
