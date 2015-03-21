@@ -132,3 +132,12 @@ sudo a2ensite test.com
   PassengerDefaultRuby /home/flowerwrong/.rvm/wrappers/default/ruby
 </IfModule>
 ```
+
+#### 2.4.7 don't have permission to access / on this server
+
+```ruby
+<Directory /wwwroot/demo>
+　　　Options FollowSymLinks Indexes
+　　　Require all granted
+</Directory>
+```
