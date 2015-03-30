@@ -21,6 +21,7 @@ vagrant ssh
 
 # add /.vagrant and Vagrantfile to gitignore
 sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install curl
 
 # install nodejs via ppa, you can install it via nvm.
