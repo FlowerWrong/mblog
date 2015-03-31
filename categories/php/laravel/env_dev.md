@@ -8,6 +8,11 @@
 4. [laravel nginx config](http://type.so/linux/nginx-and-laravel.html)
 5. [laravel setup](https://www.digitalocean.com/community/tutorials/how-to-install-laravel-with-nginx-on-an-ubuntu-12-04-lts-vps)
 6. [laravel nginx conf](http://stackoverflow.com/questions/21091405/nginx-configuration-for-laravel-4)
+7. [laravel 4 gitignore](http://stackoverflow.com/questions/17003253/which-files-directories-to-ignore-in-a-laravel-4-project-when-using-version-cont)
+8. [git ignore api](https://www.gitignore.io/)
+9. [github gitignore](https://github.com/github/gitignore/blob/master/Laravel.gitignore)
+10. [env dev of laravle *](http://laravel.io/forum/05-24-2014-developing-locally-and-using-git-how-do-i-set-up-config)
+11. [laravel dot env](http://jpbetley.com/php-dotenv/)
 
 
 ##### Install apache2,php5,mysql5,phpmyadmin
