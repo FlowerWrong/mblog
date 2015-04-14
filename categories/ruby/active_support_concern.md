@@ -1,0 +1,5 @@
+# ActiveSupport::Concern
+
+```ruby
+
+```
