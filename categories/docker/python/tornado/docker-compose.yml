@@ -1,0 +1,19 @@
+web:
+  build: .
+  command: python app.py
+  ports:
+   - "8888:8888"
+  volumes:
+   - .:/code
+  links:
+   - redis
+   - mysql
+redis:
+  image: redis
+mysql:
+  image: mysql:5.6
+  environment:
+    - MYSQL_ROOT_PASSWORD=123456
+    - MYSQL_DATABASE=tornado
+    - MYSQL_USER=yang
+    - MYSQL_PASSWORD=12345678

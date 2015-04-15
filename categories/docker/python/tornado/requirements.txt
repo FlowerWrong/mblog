@@ -1,0 +1,4 @@
+tornado
+redis
+MySQL-python
+torndb
