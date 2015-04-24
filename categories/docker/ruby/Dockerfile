@@ -17,9 +17,6 @@ RUN apt-get install -y nodejs
 
 RUN apt-get install -y imagemagick
 
-RUN gem source -r https://rubygems.org/
-RUN gem source -a https://ruby.taobao.org
-
 # skip installing gem documentation
 RUN echo 'gem: --no-rdoc --no-ri' >> "$HOME/.gemrc"
 

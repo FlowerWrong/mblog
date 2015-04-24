@@ -14,3 +14,4 @@
 * [how-to-scale-ruby-on-rails-applications-across-multiple-droplets-part-1](https://www.digitalocean.com/community/tutorials/how-to-scale-ruby-on-rails-applications-across-multiple-droplets-part-1)
 * [scaling-ruby-on-rails-setting-up-a-dedicated-mysql-server-part-2](https://www.digitalocean.com/community/tutorials/scaling-ruby-on-rails-setting-up-a-dedicated-mysql-server-part-2)
 * [scaling-ruby-on-rails-setting-up-a-dedicated-postgresql-server-part-3](https://www.digitalocean.com/community/tutorials/scaling-ruby-on-rails-setting-up-a-dedicated-postgresql-server-part-3)
+* [stackoverflow rails+cluster](http://stackoverflow.com/search?q=rails+cluster)
