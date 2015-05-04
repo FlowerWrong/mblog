@@ -27,3 +27,26 @@
 `mysqlimport -u root -p --local one_campus_development articles ~/dev/articles.sql`
 3. download data from server
 `scp name@ip:/backup/sql/articles2.sql ~/dev/articles.sql`
+
+#### mysql 设置外网可以访问
+
+```ruby
+use mysql;
+select user,host from user;
+update user set host='%' where user='root';
+flush privileges;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'root' WITH GRANT OPTION;
+flush privileges;
+
+sudo vim /etc/mysql/my.cnf
+bind-address            = 0.0.0.0
+
+CREATE USER 'miao'@'%' IDENTIFIED BY '12345678';
+GRANT ALL PRIVILEGES ON miao_development . * TO 'miao'@'%';
+flush privileges;
+```
+
+##### articles
+
+* [How To Create a New User and Grant Permissions in MySQL](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql)
+* [how-to-create-hot-backups-of-mysql-databases-with-percona-xtrabackup-on-ubuntu-14-04](https://www.digitalocean.com/community/tutorials/how-to-create-hot-backups-of-mysql-databases-with-percona-xtrabackup-on-ubuntu-14-04)
