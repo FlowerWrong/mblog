@@ -34,6 +34,7 @@
 * [ruby and rails articles](http://www.rubyflow.com/)
 * [rails tag of robot company](https://robots.thoughtbot.com/tags/rails)
 * [everyday rails website](http://everydayrails.com/)
+* [learncodethehardway系列](http://www.learncodethehardway.org/)
 * [stackoverflow ruby tag](http://stackoverflow.com/questions/tagged/ruby)
 * [stackoverflow rails tag](http://stackoverflow.com/questions/tagged/ruby-on-rails)
 
@@ -41,3 +42,4 @@
 
 * [github trending](https://github.com/trending?l=ruby)
 * [github star](https://github.com/stars?language=ruby)
+* [ruby-toolbox](https://www.ruby-toolbox.com/)
