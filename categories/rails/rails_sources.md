@@ -28,6 +28,8 @@
 * [中文wiki](https://ruby-china.org/wiki)
 * [ruby weekly](http://rubyweekly.com/)
 * [ruby and rails articles](http://www.rubyflow.com/)
+* [rails tag of robot company](https://robots.thoughtbot.com/tags/rails)
+* [everyday rails website](http://everydayrails.com/)
 * [stackoverflow ruby tag](http://stackoverflow.com/questions/tagged/ruby)
 * [stackoverflow rails tag](http://stackoverflow.com/questions/tagged/ruby-on-rails)
 
