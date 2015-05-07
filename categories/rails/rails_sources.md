@@ -12,6 +12,10 @@
 #### rails书籍
 
 * [Web开发敏捷之道：应用Rails进行敏捷Web开发（原书第4版）-rails作者](http://product.dangdang.com/22622592.html)
+* [Ruby on Rails Tutorial (3rd Ed.)](https://www.railstutorial.org/)
+* [Ruby on Rails 教程中文版](http://railstutorial-china.org/)
+* [Rails 程序部署之道](https://selfstore.io/products/66)
+* [使用 RSpec 测试 Rails 程序](https://selfstore.io/products/3)
 
 #### 论坛
 
