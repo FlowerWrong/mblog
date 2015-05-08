@@ -8,6 +8,7 @@
 * [The Ruby Way中文版](http://book.douban.com/subject/2280936/)
 * [Ruby设计模式](http://book.douban.com/subject/3338834/)
 * [其他英文书籍](https://pragprog.com/)
+* [Ruby Under a Microscope: An Illustrated Guide to Ruby Internals](http://www.amazon.cn/%E5%9B%BE%E4%B9%A6/dp/1593275277)
 
 #### rails书籍
 
