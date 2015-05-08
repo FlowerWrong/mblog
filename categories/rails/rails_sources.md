@@ -16,6 +16,7 @@
 * [Ruby on Rails 教程中文版](http://railstutorial-china.org/)
 * [Rails 程序部署之道](https://selfstore.io/products/66)
 * [使用 RSpec 测试 Rails 程序](https://selfstore.io/products/3)
+* [rails源码阅读](http://www.monkeyandcrow.com/series/reading_rails/)
 
 #### 论坛
 
