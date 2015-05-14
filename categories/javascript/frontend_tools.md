@@ -1,5 +1,18 @@
 # Frontend tools
 
+#### 前端开发工具链 编辑器篇
+
+* [sublime text 3](https://github.com/FlowerWrong/mblog/blob/master/categories/linux/linux_software.md#%E4%BA%8C-atom-or-sublime-text-3-editor)
+* [atom by github](https://github.com/FlowerWrong/mblog/blob/master/categories/linux/linux_software.md#%E4%BA%8C-atom-or-sublime-text-3-editor)
+* [vim](https://github.com/FlowerWrong/mblog/blob/master/categories/linux/linux_software.md#%E4%B8%83-vim-editor)
+* [webstorm IDE](https://github.com/FlowerWrong/mblog/blob/master/categories/linux/linux_software.md#%E5%85%AB-webstorm-for-%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91)
+* [phantomjs 非编辑器](https://github.com/FlowerWrong/mblog/blob/master/categories/linux/linux_software.md#install-phantomjs)
+
+#### 前端开发工具链 调试篇
+
+* chrome dev tools F12
+* [firebug](http://getfirebug.com/)
+
 http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
 https://blog.cesarandreu.com/posts/from_rails_to_angularjs
 http://jeff.konowit.ch/posts/yeoman-rails-angular/
@@ -62,4 +75,4 @@ npm install moduleName --save-dev  # 自动把模块和版本号添加到devdepe
 ### articles ###
 
 1. http://www.tuicool.com/articles/BrQb2q
-2. 
+2.
