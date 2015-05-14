@@ -13,6 +13,10 @@
 * chrome dev tools F12
 * [firebug](http://getfirebug.com/)
 
+#### 前端开发工具链 静态代码检查工具篇
+
+* [clean-code-linters](https://github.com/showcases/clean-code-linters)
+
 http://www.emmanueloga.com/2013/07/23/Using-AngularJS-with-a-Rails-backend.html
 https://blog.cesarandreu.com/posts/from_rails_to_angularjs
 http://jeff.konowit.ch/posts/yeoman-rails-angular/
