@@ -18,11 +18,13 @@
 * [Rails 程序部署之道](https://selfstore.io/products/66)
 * [使用 RSpec 测试 Rails 程序](https://selfstore.io/products/3)
 * [rails源码阅读](http://www.monkeyandcrow.com/series/reading_rails/)
+* [all rails books](http://www.allrubybooks.com/)
 
 #### 论坛
 
 * [ruby-china](https://ruby-china.org/)
 * [英文论坛](https://www.ruby-forum.com)
+* [开发者头条](http://toutiao.io/)
 
 #### 文档
 
