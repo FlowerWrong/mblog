@@ -1,5 +1,6 @@
 ## Mac development with rails
 
+
 #### Install Xcode from apple store
 
 #### Install [rvm](http://rvm.io)
@@ -70,4 +71,15 @@ cmd + q = quit the app
 git config --global user.name yang
 git config --global user.email sysuyangkang@gmail.com
 git config --global core.editor /usr/bin/vim
+```
+
+#### Install rails
+
+```ruby
+# install command line tools
+cd /Applications/Utilities/
+xcode-select --install
+# select install
+
+gem install rails
 ```
