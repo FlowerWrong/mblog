@@ -47,6 +47,23 @@ brew cask install google-chrome
 
 #### [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
+```ruby
+# useful
+cmd + c = copy
+cmd + v = paste
+cmd + + = bigger the terminal font size
+cmd + - = smaller the terminal font size
+cmd + t = new a terminal tab
+cmd + space = swatch 输入法
+ctrl + space = spotlight
+cmd + s = save
+cmd + x = cut
+cmd + table = swatch the window
+cmd + f = find in current window
+cmd + w = close the current window
+cmd + q = quit the app
+```
+
 #### [Git config](http://git-scm.com/docs/git-config)
 
 ```ruby
