@@ -25,12 +25,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install caskroom/cask/brew-cask
 ```
 
-#### Install mysql, atom, sublime, java... with homebrew and cask
+#### Install mysql, nodejs, atom, sublime, java... with homebrew and cask
 
 ```ruby
 brew install mysql
 # mysql.service start
 # note: Mysql defautl root password is ''
+
+brew install nodejs
 
 brew cask install java
 brew cask install sublime-text
