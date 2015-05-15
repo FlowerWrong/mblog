@@ -46,3 +46,11 @@ brew cask install google-chrome
 #### [Config github ssh keygen](https://help.github.com/articles/generating-ssh-keys/)
 
 #### [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
+
+#### [Git config](http://git-scm.com/docs/git-config)
+
+```ruby
+git config --global user.name yang
+git config --global user.email sysuyangkang@gmail.com
+git config --global core.editor /usr/bin/vim
+```
