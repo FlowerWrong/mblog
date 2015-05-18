@@ -50,6 +50,7 @@ brew cask install google-chrome
 
 ```ruby
 # useful
+cmd = win in windows keyboard
 cmd + c = copy
 cmd + v = paste
 cmd + + = bigger the terminal font size
@@ -63,6 +64,9 @@ cmd + table = swatch the window
 cmd + f = find in current window
 cmd + w = close the current window
 cmd + q = quit the app
+cmd + shift + ] = next tab
+cmd + shift + [ = previse tab
+cmd + ctrl + f = fullscreen
 ```
 
 #### [Git config](http://git-scm.com/docs/git-config)
