@@ -42,6 +42,8 @@ brew cask install atom
 # if you need install other software, just search it
 brew search google-chrome
 brew cask install google-chrome
+
+brew cask install phantomjs
 ```
 
 #### [Config github ssh keygen](https://help.github.com/articles/generating-ssh-keys/)
@@ -86,4 +88,11 @@ xcode-select --install
 # select install
 
 gem install rails
+```
+
+#### Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+```ruby
+# ~/.zshrc
+plugins=(rails git ruby sublime atom bower bundler brew)
 ```
