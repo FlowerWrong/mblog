@@ -98,3 +98,17 @@ plugins=(rails git ruby sublime atom bower bundler brew)
 ```
 
 #### Install [janus's vim](https://github.com/carlhuda/janus)
+
+#### vim cmd
+
+```ruby
+# split window
+:split
+:sp
+:vsplit
+:vsp
+:10split  # 10 line
+:split file
+:new = :split
+ctrl + w + hjkl
+```
