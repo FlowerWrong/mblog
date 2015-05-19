@@ -96,3 +96,5 @@ gem install rails
 # ~/.zshrc
 plugins=(rails git ruby sublime atom bower bundler brew)
 ```
+
+#### Install [janus's vim](https://github.com/carlhuda/janus)
