@@ -77,6 +77,10 @@ cmd + ctrl + f = fullscreen
 git config --global user.name yang
 git config --global user.email sysuyangkang@gmail.com
 git config --global core.editor /usr/bin/vim
+
+
+# public key un work
+ssh-add ~/.ssh/id_rsa_*
 ```
 
 #### Install rails
