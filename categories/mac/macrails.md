@@ -119,4 +119,13 @@ ctrl + w + hjkl
 # 和系统共享剪贴板
 # ~/.vimrc.before if janus
 set clipboard=unnamed
+
+# easymotion
+/abc  # search abc
+n  # next search
+N  # pre search
+
+let g:EasyMotion_leader_key='<Space>'
+<Space> w 光标之后查找单词
+<Space> b 光标之前查找单词
 ```
