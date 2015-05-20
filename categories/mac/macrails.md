@@ -111,4 +111,8 @@ plugins=(rails git ruby sublime atom bower bundler brew)
 :split file
 :new = :split
 ctrl + w + hjkl
+
+# 和系统共享剪贴板
+# ~/.vimrc.before if janus
+set clipboard=unnamed
 ```
