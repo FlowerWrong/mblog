@@ -129,3 +129,32 @@ let g:EasyMotion_leader_key='<Space>'
 <Space> w 光标之后查找单词
 <Space> b 光标之前查找单词
 ```
+
+#### Install php5.6
+
+```ruby
+brew tap homebrew/dupes
+brew tap homebrew/versions
+brew tap homebrew/homebrew-php
+brew install php56
+brew search php56-
+which php
+
+brew install composer
+```
+
+#### Other softwares
+
+```ruby
+brew install tree
+# or alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+```
+
+#### bash alias
+
+```ruby
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias rs='rails server'
+```
