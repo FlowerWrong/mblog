@@ -13,9 +13,18 @@ sudo apt-get install mosquitto
 sudo apt-get install mosquitto-clients
 ```
 
-##### [usage](http://nathanborror.tumblr.com/post/31046947556/mqtt)
+##### [usage 1](http://nathanborror.tumblr.com/post/31046947556/mqtt)
 
 ```ruby
 mosquitto_sub -d -t hello/world
 mosquitto_pub -d -t hello/world -m "Hello World"
+```
+
+##### [usage 2](https://github.com/njh/ruby-mqtt)
+
+```ruby
+gem install mqtt
+
+# pub.rb
+# sub.rb
 ```
