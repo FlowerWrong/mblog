@@ -7,7 +7,7 @@
 require 'rubygems'
 require 'mqtt'
 
-MQTT::Client.connect('localhost') do |client|
+MQTT::Client.connect('mqtt://yangkang:123456789@localhost') do |client|
   # If you pass a block to the get method, then it will loop
   client.get('demo') do |topic, message|
     puts "#{topic}: #{message}"

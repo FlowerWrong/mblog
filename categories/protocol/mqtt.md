@@ -28,3 +28,33 @@ gem install mqtt
 # pub.rb
 # sub.rb
 ```
+
+##### auth
+
+```ruby
+sudo vim /etc/mosquitto/mosquitto.conf
+password_file /etc/mosquitto/pwfile
+
+sudo mosquitto_passwd -c /etc/mosquitto/pwfile yang
+
+sudo mosquitto -c /etc/mosquitto/mosquitto.conf -d
+```
+
+```ruby
+# Place your local configuration in /etc/mosquitto/conf.d/
+#
+# A full description of the configuration file is at
+# /usr/share/doc/mosquitto/examples/mosquitto.conf.example
+
+pid_file /var/run/mosquitto.pid
+
+persistence true
+persistence_location /var/lib/mosquitto/
+
+log_dest file /var/log/mosquitto/mosquitto.log
+
+include_dir /etc/mosquitto/conf.d
+
+allow_anonymous false
+password_file /etc/mosquitto/pwfile
+```
