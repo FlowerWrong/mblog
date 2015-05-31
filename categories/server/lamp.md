@@ -46,3 +46,38 @@ phpize
 make && make install
 # add extension=redis.so to php.ini
 ```
+
+#### Config the websocket server
+
+```ruby
+# 1. Edit the websocket server host is public/src/components/chat/chat.coffee
+#   replace ws://127.0.0.1 to ws://112.74.92.150 or ws://domain
+
+# 2. grunt
+cd public
+grunt
+
+# 3. Install [supervisor](http://supervisord.org/installing.html)
+apt-get install python-setuptools
+easy_install supervisor
+echo_supervisord_conf
+echo_supervisord_conf > /etc/supervisord.conf
+
+# 4. Use supervisor to control the server.php in websocket dir
+vim /etc/supervisord.conf
+### config start
+[program:congcong_chat]
+command=/root/cong/websocket/server.php --port=9501
+process_name=%(program_name)s-9501
+numprocs=1
+directory=/root/cong/websocket
+autostart=true
+autorestart=true
+user=root
+redirect_stderr=true
+stdout_logfile=/root/cong/websocket/chat_log
+### config end
+
+supervisord
+supervisorctl reload
+```
