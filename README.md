@@ -11,3 +11,12 @@
 8. [server](https://github.com/FlowerWrong/mblog/tree/master/categories/server)
 9. [vim](https://github.com/FlowerWrong/mblog/tree/master/categories/vim)
 10. [protocol](https://github.com/FlowerWrong/mblog/tree/master/categories/protocol)
+11. [c](https://github.com/FlowerWrong/mblog/tree/master/categories/c)
+12. [docker](https://github.com/FlowerWrong/mblog/tree/master/categories/docker)
+13. [erlang](https://github.com/FlowerWrong/mblog/tree/master/categories/erlang)
+14. [mac](https://github.com/FlowerWrong/mblog/tree/master/categories/mac)
+15. [php](https://github.com/FlowerWrong/mblog/tree/master/categories/php)
+16. [python](https://github.com/FlowerWrong/mblog/tree/master/categories/python)
+17. [sublime](https://github.com/FlowerWrong/mblog/tree/master/categories/sublime)
+18. [web](https://github.com/FlowerWrong/mblog/tree/master/categories/web)
+
