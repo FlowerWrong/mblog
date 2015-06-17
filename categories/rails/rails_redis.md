@@ -56,8 +56,9 @@ begin
 rescue Exception => e
   p '-' * 20
   p "Error trying with $redis.flushdb: #{e.message}"
-  p 'You many need to start the redis-server with `sudo service redis-server start`'
+  p 'You may need to start the redis-server with `sudo service redis-server start`'
   p 'If the redis-server is not installed, please `sudo apt-get install redis-server`.'
+  p 'You are not using linux? See you.'
   p '-' * 20
   # ps aux | grep rails
   process_id = `/bin/ps -fu $USER| grep "rails" | grep -v "grep" | awk '{print $2}'`
