@@ -3,6 +3,17 @@
 ![chmod-d](https://raw.githubusercontent.com/FlowerWrong/mblog/master/screen/category-linux-atom-setiui.png)
 ![chmod-d](https://raw.githubusercontent.com/FlowerWrong/mblog/master/screen/category-linux-atom.png)
 
+
+#### atom ubuntu 中文显示方框问题
+
+```ruby
+# 安装文泉驿正黑字体 ubuntu 14.04 and 15.04
+sudo apt-get install fonts-wqy-zenhei
+
+# 配置atom字体
+DejaVu Sans Mono, 文泉驿正黑
+```
+
 #### 安装 [atom](https://atom.io/) 编辑器 via ppa
 
 ```bash
