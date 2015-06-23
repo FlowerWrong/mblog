@@ -8,6 +8,10 @@ sudo apt-get update
 sudo apt-get install shadowsocks-qt5
 ```
 
+### Use shadowsocks with firefox, just install autoproxy. Google it for config step.
+
+### Use shadowsocks with chrome, just google it.
+
 ### Install [proxychains-ng](https://github.com/rofl0r/proxychains-ng)
 
 ```ruby
