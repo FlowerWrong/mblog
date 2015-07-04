@@ -96,3 +96,31 @@ curl 'http://localhost:9200/movietogether/_analyze?analyzer=ik&pretty=true' -d'
     "text":"中华人民共和国国歌"
 }'
 ```
+
+```yaml
+index:
+  analysis:
+    tokenizer:
+      mmseg_maxword:
+          type: mmseg
+          seg_type: "max_word"
+      mmseg_complex:
+          type: mmseg
+          seg_type: "complex"
+      mmseg_simple:
+          type: mmseg
+          seg_type: "simple"
+    analyzer:
+      mmseg:
+          alias: [news_analyzer, mmseg_analyzer]
+          type: org.elasticsearch.index.analysis.MMsegAnalyzerProvider
+      ik:
+          alias: [ik_analyzer]
+          type: org.elasticsearch.index.analysis.IkAnalyzerProvider
+      ik_max_word:
+          type: ik
+          use_smart: false
+      ik_smart:
+          type: ik
+          use_smart: true
+```
