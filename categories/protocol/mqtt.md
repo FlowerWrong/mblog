@@ -58,3 +58,9 @@ include_dir /etc/mosquitto/conf.d
 allow_anonymous false
 password_file /etc/mosquitto/pwfile
 ```
+
+#### mqtt QoS(http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html#qos-flows)
+
+* QoS level 0: At most once delivery
+* QoS level 1: At least once delivery
+* QoS level 2: Exactly once delivery
