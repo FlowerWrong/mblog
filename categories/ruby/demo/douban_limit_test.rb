@@ -10,8 +10,12 @@ arr = []
   arr[i] = Thread.new {
     1.upto(100).each do |i|
       uri = URI('http://movie.douban.com/j/cinemas/?city_id=118281&limit=10')
-      res = Net::HTTP.get_response(uri)
-      if res.code == '403'
+      http = Net::HTTP.new(uri.host, 80)
+      request = Net::HTTP::Get.new(uri.request_uri)
+      request['Cookie'] = 'bid=a50oLULljmU'
+      res = http.request(request)
+      # res = Net::HTTP.get_response(uri)
+      if res.code == '403' || res.code == '404'
         p res.body
         Thread.kill(Thread.current)
         break
