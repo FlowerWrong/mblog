@@ -54,3 +54,11 @@ sudo rabbitmqctl change_password guest 12345678
 rabbitmqctl add_user yang password
 rabbitmqctl set_permissions -p "/" yang ".*" ".*" ".*"
 ```
+
+#### [emqttd](http://emqtt.io/getstarted/Installation)
+
+```ruby
+scp /path/local_filename username@servername:/data/app/softwares
+sudo netstat -anp | grep 1883
+sudo rabbitmqctl stop
+```

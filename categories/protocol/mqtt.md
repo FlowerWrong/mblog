@@ -36,7 +36,6 @@ sudo vim /etc/mosquitto/mosquitto.conf
 password_file /etc/mosquitto/pwfile
 
 sudo mosquitto_passwd -c /etc/mosquitto/pwfile yang
-
 sudo mosquitto -c /etc/mosquitto/mosquitto.conf -d
 ```
 
@@ -64,3 +63,9 @@ password_file /etc/mosquitto/pwfile
 * QoS level 0: At most once delivery
 * QoS level 1: At least once delivery
 * QoS level 2: Exactly once delivery
+
+#### [emqttd server](https://github.com/emqtt/emqttd)
+
+#### Articles
+
+* [MQTT(一)簡介](http://blog.maxkit.com.tw/2014/01/mqtt.html)
