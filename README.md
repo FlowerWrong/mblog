@@ -19,4 +19,4 @@
 16. [python](https://github.com/FlowerWrong/mblog/tree/master/categories/python)
 17. [sublime](https://github.com/FlowerWrong/mblog/tree/master/categories/sublime)
 18. [web](https://github.com/FlowerWrong/mblog/tree/master/categories/web)
-
+19. [emacs](https://github.com/FlowerWrong/mblog/tree/master/categories/emacs)
