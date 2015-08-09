@@ -1,9 +1,9 @@
 %% ---
 %%  Excerpted from "Programming Erlang, Second Edition",
 %%  published by The Pragmatic Bookshelf.
-%%  Copyrights apply to this code. It may not be used to create training material,
+%%  Copyrights apply to this code. It may not be used to create training material, 
 %%  courses, books, articles, and the like. Contact us if you are in doubt.
-%%  We make no guarantees that this code is fit for any purpose.
+%%  We make no guarantees that this code is fit for any purpose. 
 %%  Visit http://www.pragmaticprogrammer.com/titles/jaerlang2 for more book information.
 %%---
 -module(lib_misc).
@@ -11,8 +11,8 @@
 %% commonly used routines
 
 -export([consult/1,
-	 dump/2,
-	 first/1,
+	 dump/2, 
+	 first/1, 
 	 for/3,
 	 is_prefix/2,
 	 deliberate_error/1,
@@ -42,7 +42,7 @@
 	 pmap/2,
 	 pmap1/2,
 	 priority_receive/0,
-	 pythag/1,
+	 pythag/1, 
 	 replace/3,
 	 split/2,
 	 safe/1,
@@ -72,18 +72,18 @@
 	 longest_common_prefix/1,
 	 unconsult/2]).
 
--export([complete/2,
+-export([complete/2, 
 	 skip_blanks/1, trim_blanks/1, sleep/1, split_at_char/2,
-	 %% mk_tree/1,
-	 is_blank_line/1,
+	 %% mk_tree/1, 
+	 is_blank_line/1, 
 	 have_common_prefix/1]).
 
 -import(lists, [all/2, any/2, filter/2, reverse/1, reverse/2,
 		foreach/2, map/2, member/2, sort/1]).
 
--define(NYI(X),(begin
+-define(NYI(X),(begin 
 		    io:format("*** NYI ~p ~p ~p~n",[?MODULE, ?LINE, X]),
-		    exit(nyi)
+		    exit(nyi) 
 		end)).
 
 glurk(X, Y) ->
@@ -103,8 +103,8 @@ file_size_and_type(File) ->
 ls(Dir) ->
     {ok, L} = file:list_dir(Dir),
     lists:map(fun(I) -> {I, file_size_and_type(I)} end, lists:sort(L)).
-
-
+    
+		
 
 consult(File) ->
     case file:open(File, read) of
@@ -126,7 +126,7 @@ dump(File, Term) ->
     Out = File ++ ".tmp",
     io:format("** dumping to ~s~n",[Out]),
     {ok, S} = file:open(Out, [write]),
-    io:format(S, "~p.~n",[Term]),
+    io:format(S, "~p.~n",[Term]), 
     file:close(S).
 
 partition(F, L) -> partition(F, L, [], []).
@@ -198,7 +198,7 @@ find_duplicates([], L) ->
 %%   {more,L}  - means there are completions but I need more characters
 %%               L = [Str] = list of possible completions
 %%   {yes, S}  - means there is a unique completion
-%%
+%%   
 %%   A = S = str(), L=[str()]
 %%   used to compute the smallest S
 %%   such that A ++ S is a member of all elements of L
@@ -226,7 +226,7 @@ complete(Str, L) ->
 
 %% remove_prefix(X, Y) -> Z
 %%   finds Z such that X ++ Z = Y
-%%
+%%   
 remove_prefix([H|T], [H|T1]) -> remove_prefix(T, T1);
 remove_prefix([], L)         -> L.
 
@@ -252,7 +252,7 @@ have_common_prefix(L) ->
 	    Heads = map(fun(I) -> hd(I) end, L),
 	    H = hd(Heads),
 	    case all(fun(X) -> hd(X) =:= H end, L) of
-		true ->
+		true -> 
 		    Tails = map(fun(I) -> tl(I) end, L),
 		    {yes, H, Tails};
 		false ->
@@ -265,9 +265,9 @@ is_empty_list(X) when is_list(X) -> false.
 
 skip_blanks([$\s|T]) -> skip_blanks(T);
 skip_blanks(X)       -> X.
-
+    
 trim_blanks(X) -> reverse(skip_blanks(reverse(X))).
-
+    
 
 split_at_char(Str, C) -> split_at_char(Str, C, []).
 
@@ -276,7 +276,7 @@ split_at_char([H|T], C, L) -> split_at_char(T, C, [H|L]);
 split_at_char([], _, _)    -> no.
 
 %% read file into line buffer
-read_file_as_lines(File) ->
+read_file_as_lines(File) ->    
     case file:read_file(File) of
 	{ok, Bin} ->
 	    {ok, split_into_lines(binary_to_list(Bin), 1,  [])};
@@ -303,7 +303,7 @@ is_blank_line(_)  -> false.
 
 %%----------------------------------------------------------------------
 %% lookup
-
+		   
 %%----------------------------------------------------------------------
 %% split(Pred, L) -> {True, False}
 
@@ -316,7 +316,7 @@ split(F, [H|T], True, False) ->
     end;
 split(_, [], True, False) ->
     {reverse(True), reverse(False)}.
-
+ 
 %%----------------------------------------------------------------------
 
 outOfDate(In, Out) ->
@@ -398,7 +398,7 @@ merge_kv([], D) ->
 
 
 %% rpc/2
-%%
+%% 
 rpc(Pid, Q) ->
     Pid ! {self(), Q},
     receive
@@ -414,7 +414,7 @@ odd(X) ->
 	1 -> true;
 	0 -> false
     end.
-
+	    
 ndots([$.|T]) -> 1 + ndots(T);
 ndots([_|T])  -> ndots(T);
 ndots([])     -> 0.
@@ -463,7 +463,7 @@ string2value(Str, Bindings0) ->
     {ok, Exprs} = erl_parse:parse_exprs(Tokens),
     {value, Value, Bindings1} = erl_eval:exprs(Exprs, Bindings0),
     {Value, Bindings1}.
-
+	    
 eval_file(File) ->
     {ok, S} = file:open(File, [read]),
     Vals = eval_file(S, 1, erl_eval:new_bindings()),
@@ -539,8 +539,8 @@ make_global(Name, Fun) ->
 	{Pid, Reply} ->
 	    Reply
     end.
-
-make_global(Parent, Name, Fun) ->
+		
+make_global(Parent, Name, Fun) ->	
     case (catch register(Name, self())) of
 	true -> Fun();
 	_ -> true
@@ -551,7 +551,7 @@ make_global(Parent, Name, Fun) ->
 %% Fun(Why) is evaluated:
 
 on_exit(Pid, Fun) ->
-    spawn(fun() ->
+    spawn(fun() -> 
 		  Ref = monitor(process, Pid),     %% <label id="code.onexit2"/>
 		  receive
 		      {'DOWN', Ref, process, Pid, Why} ->      %% <label id="code.onexit3"/>
@@ -596,7 +596,7 @@ pythag(N) ->
         B <- lists:seq(1,N),
         C <- lists:seq(1,N),
         A+B+C =< N,
-        A*A+B*B =:= C*C
+        A*A+B*B =:= C*C 
     ].
 
 extract_attribute(File, Key) ->
@@ -624,7 +624,7 @@ random_seed() ->
     put(random_seed, {H1,M1,S1}).
 
 odds_and_evens1(L) ->
-    Odds  = [X || X <- L, (X rem 2) =:= 1],
+    Odds  = [X || X <- L, (X rem 2) =:= 1], 
     Evens = [X || X <- L, (X rem 2) =:= 0],
     {Odds, Evens}.
 
@@ -644,23 +644,23 @@ sum(L) -> sum(L, 0).
 sum([], N)    -> N;
 sum([H|T], N) -> sum(T, H+N).
 
-sqrt(X) when X < 0 ->
+sqrt(X) when X < 0 ->    
     error({squareRootNegativeArgument, X});
 sqrt(X) ->
     math:sqrt(X).
 
-pmap(F, L) ->
+pmap(F, L) -> 
     S = self(),
     %% make_ref() returns a unique reference
     %%   we'll match on this later
-    Ref = erlang:make_ref(),
-    Pids = map(fun(I) ->
+    Ref = erlang:make_ref(), 
+    Pids = map(fun(I) -> 
 		       spawn(fun() -> do_f(S, Ref, F, I) end)
 	       end, L),
     %% gather the results
     gather(Pids, Ref).
 
-do_f(Parent, Ref, F, I) ->
+do_f(Parent, Ref, F, I) ->					    
     Parent ! {self(), Ref, (catch F(I))}.
 gather([Pid|T], Ref) ->
     receive
@@ -669,16 +669,16 @@ gather([Pid|T], Ref) ->
 gather([], _) ->
     [].
 
-pmap1(F, L) ->
+pmap1(F, L) -> 
     S = self(),
     Ref = erlang:make_ref(),
-    foreach(fun(I) ->
+    foreach(fun(I) -> 
 		    spawn(fun() -> do_f1(S, Ref, F, I) end)
 	    end, L),
     %% gather the results
     gather1(length(L), Ref, []).
 
-do_f1(Parent, Ref, F, I) ->
+do_f1(Parent, Ref, F, I) ->					    
     Parent ! {Ref, (catch F(I))}.
 
 gather1(0, _, L) -> L;
@@ -688,7 +688,7 @@ gather1(N, Ref, L) ->
     end.
 
 
-%% evalute F(Word) for each word in the file File
+%% evalute F(Word) for each word in the file File		  
 foreachWordInFile(File, F) ->
     case file:read_file(File) of
 	{ok, Bin} -> foreachWordInString(binary_to_list(Bin), F);
@@ -697,7 +697,7 @@ foreachWordInFile(File, F) ->
 
 foreachWordInString(Str, F) ->
     case get_word(Str) of
-	no ->
+	no -> 
 	    void;
 	{Word, Str1} ->
 	    F(Word),
