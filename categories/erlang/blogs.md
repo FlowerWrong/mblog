@@ -6,3 +6,4 @@
 * [erlware blog](http://blog.erlware.org/)
 * [joearms blog](http://joearms.github.io/)
 * [process-one blog](https://blog.process-one.net/)
+* [连城 blog](http://blog.liancheng.info/)
