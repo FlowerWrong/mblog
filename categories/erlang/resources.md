@@ -4,3 +4,4 @@
 * [erlang course](http://www.erlang.org/course/course.html)
 * [erlang examples](http://www.erlang.org/article/tag/examples)
 * [Erlang/OTP documentation](http://www.erlang.org/doc.html)
+* [mostly erlang video and blog](http://mostlyerlang.com/)
