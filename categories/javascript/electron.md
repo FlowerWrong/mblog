@@ -29,5 +29,13 @@ npm install electron-prebuilt -g
 npm install -g yo bower grunt-cli gulp
 npm install --global generator-electron
 
+mkdir nodeim
+cd nodeim
 yo electron
+```
+
+#### [Node xmpp client](https://github.com/node-xmpp/node-xmpp-client)
+
+```ruby
+npm install node-xmpp-client --save-dev
 ```
