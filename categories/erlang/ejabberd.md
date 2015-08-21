@@ -26,3 +26,18 @@ sudo ejabberdctl stop
 sudo make uninstall
 # 
 ```
+
+
+### Enable register
+
+```ruby
+sudo vim /etc/ejabberd/ejabberd.yml
+# /register
+register: true
+```
+
+### 名词
+
+* roster -> 好友列表
+* VCard -> 用户信息
+* XMPP定义了三种顶级XML节 -> <iq /> <message /> <presence />
