@@ -7,3 +7,4 @@
 * [joearms blog](http://joearms.github.io/)
 * [process-one blog](https://blog.process-one.net/)
 * [连城 blog](http://blog.liancheng.info/)
+* [云巴张虎](http://zhang.hu/)
