@@ -9,3 +9,5 @@
 * [连城 blog](http://blog.liancheng.info/)
 * [云巴张虎](http://zhang.hu/)
 * [元气糯米团子的Coding Blog](http://developerworks.github.io/)
+* [--00 blog](http://www.cnblogs.com/--00/)
+* [cnblogs erlang node](http://www.cnblogs.com/cate/erlang/)
