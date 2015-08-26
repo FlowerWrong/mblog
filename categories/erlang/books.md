@@ -7,6 +7,8 @@
 * Erlang/TOP并发编程实战
 * [Designing for Scalability with Erlang/OTP 2014](http://shop.oreilly.com/product/0636920024149.do)
 * [The Erlang Run-Time System 2015](http://shop.oreilly.com/product/0636920029038.do)
+* [Stuff Goes Bad Erlang in Anger](http://www.erlang-in-anger.com/)
+* [Stuff Goes Bad:Erlang In Anger 中文版](https://www.gitbook.com/book/zhongwencool/erlang_in_anger/details)
 
 
 #### [Elixir](http://elixir-lang.org/)
