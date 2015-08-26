@@ -11,3 +11,5 @@
 * [元气糯米团子的Coding Blog](http://developerworks.github.io/)
 * [--00 blog](http://www.cnblogs.com/--00/)
 * [cnblogs erlang node](http://www.cnblogs.com/cate/erlang/)
+* [zhongwencool blog](http://www.cnblogs.com/zhongwencool/)
+* [code.wang blog](http://www.cnblogs.com/codew/)
