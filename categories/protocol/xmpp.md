@@ -19,3 +19,8 @@ ip_access: trusted_network
 # access: register  # Note this
 access_from: register  # Note this
 ```
+
+#### XMPP协议rfc
+
+* [XMPP核心RFC](http://wiki.jabbercn.org/%E5%88%86%E7%B1%BB:XMPP%E6%A0%B8%E5%BF%83RFC)
+* [XMPP扩展](http://wiki.jabbercn.org/%E5%88%86%E7%B1%BB:XMPP%E6%89%A9%E5%B1%95)
