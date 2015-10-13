@@ -11,3 +11,4 @@
 * [ruby-science by thoughtbot](https://gumroad.com/l/ruby-science#)
 * [Rebuilding Rails](https://rebuilding-rails.com/)
 * [oreilly ruby books sort by date](http://search.oreilly.com/?i=1;m_Sort=searchDate;q=ruby;x=0;y=0&act=sort)
+* [Let's Build a Sinatra](https://robots.thoughtbot.com/lets-build-a-sinatra)
