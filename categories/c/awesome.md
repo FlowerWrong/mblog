@@ -17,4 +17,5 @@
 #### Awesome awesome
 
 * [awesome-c by aleksandar-todorovic](https://github.com/aleksandar-todorovic/awesome-c)
+* [awesome-c by kozross](https://notabug.org/koz.ross/awesome-c)
 * [awesome-cpp by fffaraz](https://github.com/fffaraz/awesome-cpp)
