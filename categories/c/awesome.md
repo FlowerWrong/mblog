@@ -4,6 +4,8 @@
 
 * [libev: A full-featured and high-performance event loop that is loosely modelled after libevent, but without its limitations and bugs.](http://software.schmorp.de/pkg/libev.html)
 * [libevent: libevent supports /dev/poll, kqueue, event ports, POSIX select, Windows select, poll, and epoll](http://libevent.org/)
+* [libwebsock: easy WebSockets server](https://github.com/payden/libwebsock)
+* [libwebsockets: libwebsockets.org websocket library](https://github.com/warmcat/libwebsockets)
 
 #### Http
 
@@ -13,6 +15,12 @@
 
 * [hiredis: Minimalistic C client for Redis](https://github.com/redis/hiredis)
 * [zimg: A lightweight and high performance image storage and processing system](https://github.com/buaazp/zimg)
+
+#### Library
+
+* [sglib: a library defining useful macros for manipulating common data structures, like array, list, hash, red black tree...](http://sglib.sourceforge.net/doc/index.html)
+* [klib: a standalone and lightweight C library](https://github.com/attractivechaos/klib)
+* [zlog: A reliable, high-performance, thread safe, flexsible, clear-model, pure C logging library](https://github.com/HardySimpson/zlog)
 
 #### Awesome awesome
 
