@@ -10,6 +10,7 @@
 #### Http
 
 * [libevhtp: A more flexible replacement for libevent's http API](https://github.com/ellzey/libevhtp)
+* [h2o: the optimized HTTP/1, HTTP/2 server](https://github.com/h2o/h2o)
 
 #### Software
 
