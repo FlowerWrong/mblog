@@ -7,6 +7,7 @@
 * [libwebsock: easy WebSockets server](https://github.com/payden/libwebsock)
 * [libwebsockets: libwebsockets.org websocket library](https://github.com/warmcat/libwebsockets)
 * [libeio: Event-based fully asynchronous I/O library](http://software.schmorp.de/pkg/libeio.html)
+* [libuv: Cross-platform asychronous I/O, used by nodejs](https://github.com/libuv/libuv)
 
 #### Http
 
