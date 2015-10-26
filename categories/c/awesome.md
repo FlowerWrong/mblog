@@ -6,6 +6,7 @@
 * [libevent: libevent supports /dev/poll, kqueue, event ports, POSIX select, Windows select, poll, and epoll](http://libevent.org/)
 * [libwebsock: easy WebSockets server](https://github.com/payden/libwebsock)
 * [libwebsockets: libwebsockets.org websocket library](https://github.com/warmcat/libwebsockets)
+* [libeio: Event-based fully asynchronous I/O library](http://software.schmorp.de/pkg/libeio.html)
 
 #### Http
 
