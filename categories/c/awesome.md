@@ -8,11 +8,17 @@
 * [libwebsockets: libwebsockets.org websocket library](https://github.com/warmcat/libwebsockets)
 * [libeio: Event-based fully asynchronous I/O library](http://software.schmorp.de/pkg/libeio.html)
 * [libuv: Cross-platform asychronous I/O, used by nodejs](https://github.com/libuv/libuv)
+* [fastsocket: highly scalable socket and its underlying networking implementation of Linux kernel](https://github.com/fastos/fastsocket)
 
 #### Http
 
 * [libevhtp: A more flexible replacement for libevent's http API](https://github.com/ellzey/libevhtp)
 * [h2o: the optimized HTTP/1, HTTP/2 server](https://github.com/h2o/h2o)
+* [http-parser: http request/response parser for c](https://github.com/nodejs/http-parser)
+
+#### Json
+
+* [json-parser: Very low footprint JSON parser written in portable ANSI C](https://github.com/udp/json-parser)
 
 #### Software
 
