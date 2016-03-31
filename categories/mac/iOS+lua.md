@@ -10,6 +10,7 @@
 * [luaobjc](https://github.com/luaforge/luaobjc): old on 2007
 * [LuaBridge](https://github.com/vinniefalco/LuaBridge): old on 2013
 * [luapower objc](https://luapower.com/objc)
+* [luaSkin](https://github.com/Hammerspoon/hammerspoon/tree/master/LuaSkin): luaSkin is part of hammerspoon
 
 ## Articles
 
@@ -22,3 +23,5 @@
 
 * [ZeroBraneStudio](https://github.com/pkulchenko/ZeroBraneStudio): Lightweight Lua-based IDE for Lua
 * [tolua++](https://github.com/LuaDist/toluapp): tolua++ is an extension of toLua, a tool to integrate C/Cpp code with Lua
+* [hammerspoon](https://github.com/Hammerspoon/hammerspoon): fork form mjolnir
+* [mjolnir](https://github.com/sdegutis/mjolnir)
