@@ -11,7 +11,7 @@
 * [elasticsearch](https://www.elastic.co/products/elasticsearch)
 * [fluentd](http://www.fluentd.org/architecture): based on cruby
 * [kibana](https://www.elastic.co/products/kibana)
-* [fluentd-ui](https://github.com/fluent/fluentd-ui)
+* [fluentd-ui](https://github.com/fluent/fluentd-ui): a graphical user interface to start/stop/configure Fluentd
 
 * [fluentd + elasticsearch + kibana](http://docs.fluentd.org/articles/free-alternative-to-splunk-by-fluentd)
 
