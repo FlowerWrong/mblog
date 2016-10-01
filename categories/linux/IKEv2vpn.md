@@ -107,6 +107,28 @@ tail -f /var/log/strongswan-charon.log
 journalctl -f
 ```
 
+## start on boot, [strongSwan-setup-and-config-on-ubuntu-server](https://www.mawenbao.com/note/strongSwan-setup-and-config-on-ubuntu-server.html)
+
+```bash
+wget https://raw.githubusercontent.com/strongswan/strongswan/master/packages/strongswan/debian/strongswan-starter.ipsec.init
+sudo mv strongswan-starter.ipsec.init /etc/init.d/strongswan
+
+# 改一下ipsec的路径并添加执行权限
+sudo sed -i 's|DAEMON=/usr/sbin|DAEMON=/usr/local/sbin|' /etc/init.d/strongswan
+sudo chmod +x /etc/init.d/strongswan
+
+sudo service strongswan start
+sudo service strongswan stop
+sudo service strongswan restart
+
+sudo apt-get install sysv-rc-conf
+sudo sysv-rc-conf
+```
+
+## No cert support ikev2
+
+* [ ] todo
+
 ## References
 
 * [UBUNTU、CENTOS搭建IPSEC/IKEV2 VPN服务器全攻略](https://quericy.me/blog/512)
