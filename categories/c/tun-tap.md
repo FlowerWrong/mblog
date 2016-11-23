@@ -3,6 +3,9 @@
 ## vtun 工作原理
 
 * [VTun 工作原理详解](http://blog.csdn.net/tycoon1988/article/details/38366023)
+* [深入解析Mac OS X & iOS 操作系统 学习笔记（十八）](http://www.jianshu.com/p/54ec6833028f)
+
+![tuntap](http://upload-images.jianshu.io/upload_images/2125871-f4c452a13482e89c.png)
 
 ## VPN
 
