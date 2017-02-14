@@ -12,6 +12,8 @@
 
 ![](https://cloud.githubusercontent.com/assets/1122379/3489453/3a61f74e-052e-11e4-884e-ea781b93efdd.png)
 
+### [prometheus](https://github.com/prometheus/prometheus): Prometheus monitoring system and time series database.
+
 ### [gogs: yes it is you](https://github.com/gogits/gogs): replace gitlab
 
 ![](https://gogs.io/img/screenshots/2.png)
@@ -36,6 +38,28 @@
 * elk or efk
 * [awesome-sysadmin#log-management](https://github.com/kahun/awesome-sysadmin#log-management)
 * [Apache Kafka](https://github.com/apache/kafka): Kafka™ is used for building real-time data pipelines and streaming apps.
+
+## Other golang softwares
+
+* [frp](https://github.com/fatedier/frp): A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet. replace ngrok
+* [martian](https://github.com/google/martian): 抓包http/https
+* [OPMS](https://github.com/lock-upme/OPMS): OPMS项目+OA管理系统
+* [lime](https://github.com/limetext/lime): Open source API-compatible alternative to the text editor Sublime Text
+* [mattermost](https://github.com/mattermost/platform): replace slack
+* [glot](https://glot.io/): 在线代码运行品台
+
+## IM
+
+* [goim](https://github.com/Terry-Mao/goim)
+* [FishChat2](https://github.com/oikomi/FishChatServer2)
+* [tim](https://github.com/donnie4w/tim): 分布式聊天服务器，采用thrift双向传输，有良好的拓展性
+* [heim](https://github.com/euphoria-io/heim): A real-time community platform
+* [GoBelieve](https://github.com/GoBelieveIO/im_service)
+
+## game
+
+* [leaf](https://github.com/name5566/leaf)
+* [gonet2](https://github.com/gonet2/game): gonet/2 game service
 
 ## Site
 
