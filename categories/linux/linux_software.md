@@ -55,7 +55,7 @@ sudo apt-get install google-chrome-beta
 sudo apt-get install google-chrome-unstable
 ```
 
-#### 六. java 7 or 8
+#### 六. java 7, 8 or 9
 ```ruby
 # install java 7
 sudo add-apt-repository ppa:webupd8team/java
@@ -102,25 +102,24 @@ source ~/.rvm/scripts/rvm
 rvm -v
 ```
 
-###### 2. install ruby 2.1.5
+###### 2. install ruby 2.4.2
 
 ```ruby
-rvm install 2.1.5
+rvm install 2.4.2
 
 # On ubuntu, you need `bash --login` to use rvm. To resolve:
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"' >> ~/.bashrc
 source ~/.bashrc
 
-rvm use --default 2.1.5 # set to default
+rvm use --default 2.4.2 # set to default
 ruby -v
 gem -v
 ```
 
-###### 3. replace gem source to tabao.org
+###### 3. replace gem source to gems.ruby-china.org
 
 ```ruby
-gem source -r https://rubygems.org/
-gem source -a https://ruby.taobao.org
+gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
 ```
 
 ###### 4. install latest rails
@@ -130,7 +129,7 @@ gem install rails
 rails -v
 ```
 
-###### 5. install nodejs via ppa
+###### 5. install nodejs via ppa or nvm
 
 ```ruby
 sudo apt-get install python-software-properties
@@ -143,11 +142,15 @@ node -v
 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash
 source ~/.nvm/nvm.sh
 nvm -v
-nvm install 0.12
-nvm use 0.12
-nvm alias default 0.12
+
+nvm ls
+nvm ls-remote
+nvm install node
+nvm use node
+nvm alias default node
 node -v
 npm -v
+npm i -g npm
 ```
 
 ###### 6. install mysql
