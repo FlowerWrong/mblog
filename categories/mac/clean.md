@@ -40,3 +40,14 @@ I remove most file in `~/Library/Developer/Xcode/iOS DeviceSupport`
 ```bash
 xcrun simctl delete unavailable
 ```
+
+### docker
+
+```bash
+// https://docs.docker.com/engine/reference/commandline/network_prune/
+// Remove all unused networks
+docker network prune
+
+// https://docs.docker.com/engine/reference/commandline/system_prune/
+docker system prune --volumes
+```
