@@ -14,3 +14,4 @@
 ## Community
 
 * [dev.to@ruby](https://dev.to/t/ruby)
+* [reddit@ruby](https://www.reddit.com/r/ruby)
