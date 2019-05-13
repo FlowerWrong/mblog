@@ -5,6 +5,7 @@
 * [monosnap](https://monosnap.com/welcome) 截图工具
 * [sequel pro](https://www.sequelpro.com/) mysql gui
 * [psequel](http://www.psequel.com/) pg gui
+* [postbird](https://github.com/Paxa/postbird) pg gui, now used
 * docker
 * cheatsheet
 * iterm2
